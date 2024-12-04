@@ -9,9 +9,9 @@
       
     .row.justify-content-center.mb-4         
       .col-lg-9.my-lg-0.my-3
-        p La construcción de datasets es el primer paso para cualquier proyecto de aprendizaje automático. Un dataset bien diseñado y construido es la base sobre la cual se desarrollan modelos robustos y precisos. En este capítulo, se abordará la importancia de los requerimientos y el diseño del dataset, se discutirán diversas técnicas de recolección de datos, y se analizarán los procesos necesarios para garantizar la calidad de los datos obtenidos. Estos elementos son clave para maximizar el valor de los modelos de #[i machine learning], ya que cualquier error en esta fase puede tener consecuencias significativas en las etapas posteriores.
+        p La construcción de #[em datasets] es el primer paso para cualquier proyecto de aprendizaje automático. Un #[em dataset] bien diseñado y construido es la base sobre la cual se desarrollan modelos robustos y precisos. En este capítulo, se abordará la importancia de los requerimientos y el diseño del #[em dataset], se discutirán diversas técnicas de recolección de datos, y se analizarán los procesos necesarios para garantizar la calidad de los datos obtenidos. Estos elementos son clave para maximizar el valor de los modelos de #[em machine learning], ya que cualquier error en esta fase puede tener consecuencias significativas en las etapas posteriores.
         .bg1.brad.p-3.j1
-          p.mb-0 En el ámbito del #[i Machine learning], la construcción de datasets robustos y representativos es fundamental para el éxito de cualquier proyecto. Un dataset, en esencia, es una colección organizada de datos que sirve como materia prima para entrenar y evaluar modelos de Inteligencia Artificial. Este capítulo explorará los aspectos clave en la construcción de datasets, desde la definición de requerimientos hasta las técnicas de recolección y control de calidad, con el objetivo de proporcionar al lector las herramientas necesarias para crear bases sólidas para sus proyectos de #[i Machine learning]. 
+          p.mb-0 En el ámbito del #[em Machine learning], la construcción de #[em datasets] robustos y representativos es fundamental para el éxito de cualquier proyecto. Un #[em dataset], en esencia, es una colección organizada de datos que sirve como materia prima para entrenar y evaluar modelos de Inteligencia Artificial. Este capítulo explorará los aspectos clave en la construcción de #[em datasets], desde la definición de requerimientos hasta las técnicas de recolección y control de calidad, con el objetivo de proporcionar al lector las herramientas necesarias para crear bases sólidas para sus proyectos de #[em Machine learning]. 
       .col-lg-3.my-lg-0.my-3.j1
         img.img-t.img-a(src='@/assets/curso/temas/3.png')   
 
@@ -118,35 +118,35 @@
 
                 tbody
                   tr
-                    td Web Scraping
-                    td No estructurados
-                    td Gran cantidad de datos
-                    td Problemas legales y de calidad
-                    td Beautiful Soup, Scrapy, Selenium
+                    td Web Scraping.
+                    td No estructurados.
+                    td Gran cantidad de datos.
+                    td Problemas legales y de calidad.
+                    td Beautiful Soup, Scrapy, Selenium.
                   tr
-                    td Consultas a Bases de Datos
-                    td Estructurados
-                    td Rápido y consistente
-                    td Limitado por la estructura
-                    td SQL, R, Python
+                    td Consultas a Bases de Datos.
+                    td Estructurados.
+                    td Rápido y consistente.
+                    td Limitado por la estructura.
+                    td SQL, R, Python.
                   tr
-                    td Formularios de Entrada
+                    td Formularios de Entrada.
                     td Estructurados
-                    td Datos específicos y controlados
-                    td Requiere participación activa
-                    td Google Forms, SurveyMonkey
+                    td Datos específicos y controlados.
+                    td Requiere participación activa.
+                    td Google Forms, SurveyMonkey.
                   tr
-                    td APIs
-                    td Estructurados
-                    td Acceso eficiente a datos
-                    td Dependencia del proveedor
-                    td Librerías de cliente para APIs en R y Python
+                    td APIs.
+                    td Estructurados.
+                    td Acceso eficiente a datos.
+                    td Dependencia del proveedor.
+                    td Librerías de cliente para APIs en R y Python.
                   tr
-                    td Sensores
-                    td Estructurados
-                    td Datos en tiempo real
-                    td Requiere infraestructura física
-                    td Dispositivos IoT, Arduino, Raspberry Pi                                                              
+                    td Sensores.
+                    td Estructurados.
+                    td Datos en tiempo real.
+                    td Requiere infraestructura física.
+                    td Dispositivos IoT, Arduino, Raspberry Pi.                                                              
     .row.justify-content-center
       .col-lg-10
         .row.justify-content-center.align-items-center.bg9.p-4.brad
@@ -163,7 +163,7 @@
       .col-lg-8.my-lg-0.my-3
         p Una vez recolectados los datos, es fundamental realizar un control de calidad para asegurar que los mismos sean adecuados para el entrenamiento de modelos de #[i machine learning]. La calidad de los datos tiene un impacto directo en el rendimiento de los modelos, por lo que cualquier error o inconsistencias pueden resultar en predicciones erróneas.
         .bg4.brad.p-3.j1
-          p.mb-0 El control de calidad implica la identificación y eliminación de datos faltantes, valores duplicados o fuera de rango, y errores tipográficos. Además, es importante verificar la consistencia de los datos, asegurándose de que las unidades de medida sean correctas y uniformes. Otro aspecto importante del control de calidad es la detección de outliers, ya que estos pueden afectar negativamente la capacidad del modelo para generalizar los patrones. 
+          p.mb-0 El control de calidad implica la identificación y eliminación de datos faltantes, valores duplicados o fuera de rango, y errores tipográficos. Además, es importante verificar la consistencia de los datos, asegurándose de que las unidades de medida sean correctas y uniformes. Otro aspecto importante del control de calidad es la detección de #[em outliers], ya que estos pueden afectar negativamente la capacidad del modelo para generalizar los patrones. 
       .col-lg-4.my-lg-0.my-3.j1
         img.img-t.img-a(src='@/assets/curso/temas/15.png')  
     p Algunas tareas comunes en el control de calidad de datos incluyen: 

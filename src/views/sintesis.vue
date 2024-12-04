@@ -20,7 +20,7 @@
       .col-lg-10.mb-5
         .bgs.p-4.brad     
           figure
-            img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+            img(src="@/assets/curso/temas/sintesis.svg", alt="La Figura 3 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre preparación y modelado de datos para machine learning —como la construcción de datasets, la segmentación de datos, el tratamiento de sesgos y la preparación para modelos— y algunos subtemas que los integran.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

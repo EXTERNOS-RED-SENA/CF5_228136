@@ -22,7 +22,7 @@
       .col-lg-8.my-lg-0.my-3
         .bg4.brad.p-3.j1.mb-4
           p.mb-0 El escalamiento y normalización de datos constituyen transformaciones matemáticas que ajustan los valores numéricos a rangos específicos, facilitando el proceso de aprendizaje del modelo. Estas técnicas cobran especial relevancia cuando las variables presentan escalas muy diferentes entre sí.      
-        p La normalización min-max ajusta los valores a un rango específico, típicamente entre 0 y 1, preservando las relaciones entre los datos originales. Por otro lado, la estandarización (o normalización Z-score) transforma los datos para que tengan media cero y desviación estándar unitaria. La elección entre estas técnicas depende del algoritmo y la naturaleza de los datos. La siguiente tabla presenta una comparación detallada de las principales técnicas de escalamiento y sus casos de uso:
+        p La normalización min-max ajusta los valores a un rango específico, típicamente entre 0 y 1, preservando las relaciones entre los datos originales. Por otro lado, la estandarización (o normalización Z-#[em score]) transforma los datos para que tengan media cero y desviación estándar unitaria. La elección entre estas técnicas depende del algoritmo y la naturaleza de los datos. La siguiente tabla presenta una comparación detallada de las principales técnicas de escalamiento y sus casos de uso:
 
       .col-lg-4.my-lg-0.my-3.j1
         img.img-t.img-a(src='@/assets/curso/temas/41.png') 
@@ -46,29 +46,29 @@
 
             tbody
               tr
-                td Min-Max
-                td (x - min)/(max - min)
-                td [0,1]
-                td Redes neuronales, algoritmos basados en distancias
-                td Sensible a #[i outliers]
+                td Min-Max.
+                td (x - min)/(max - min).
+                td [0,1].
+                td Redes neuronales, algoritmos basados en distancias.
+                td Sensible a #[i outliers].
               tr
-                td Z-Score
-                td (x - media)/desv.est
-                td [-∞,∞]
-                td Regresión lineal, SVM
-                td Asume distribución normal
+                td Z-#[em Score].
+                td (x - media)/desv.est.
+                td [-∞,∞].
+                td Regresión lineal, SVM.
+                td Asume distribución normal.
               tr
-                td Robust Scaler
-                td (x - mediana)/IQR
-                td Variable
-                td Datos con #[i outliers] significativos
-                td Más robusto a valores extremos
+                td #[em Robust Scaler].
+                td (x - mediana)/IQR.
+                td Variable.
+                td Datos con #[i outliers] significativos.
+                td Más robusto a valores extremos.
               tr
-                td Log Transform 
-                td log(x)
-                td [0,∞]
-                td Datos con distribución sesgada
-                td Solo para valores positivos                                                
+                td #[em Log Transform.]
+                td log(x).
+                td [0,∞].
+                td Datos con distribución sesgada.
+                td Solo para valores positivos .                                               
 
     Separador 
     #t_4_2.titulo-segundo.color-acento-contenido
@@ -84,9 +84,9 @@
           .col-lg-auto
             img.img-a.img-t(src='@/assets/curso/temas/43.png' alt='')
           .col.pt-lg-0.pt-md-4
-            p.mb-0 La codificación one-hot transforma cada categoría en una columna binaria, evitando la imposición de un orden artificial entre categorías. Sin embargo, puede generar matrices dispersas cuando el número de categorías es elevado. La codificación ordinal, por su parte, asigna números enteros a cada categoría y resulta más apropiada cuando existe un orden natural entre las categorías.
+            p.mb-0 La codificación #[em one-hot] transforma cada categoría en una columna binaria, evitando la imposición de un orden artificial entre categorías. Sin embargo, puede generar matrices dispersas cuando el número de categorías es elevado. La codificación ordinal, por su parte, asigna números enteros a cada categoría y resulta más apropiada cuando existe un orden natural entre las categorías.
 
-        p En casos de variables categóricas con alta cardinalidad (muchas categorías únicas), técnicas más avanzadas como target encoding o feature hashing pueden ofrecer alternativas más eficientes. Estas técnicas deben aplicarse con precaución para evitar el sobreajuste, especialmente en conjuntos de datos pequeños.       
+        p En casos de variables categóricas con alta cardinalidad (muchas categorías únicas), técnicas más avanzadas como #[em target encoding] o #[em feature hashing] pueden ofrecer alternativas más eficientes. Estas técnicas deben aplicarse con precaución para evitar el sobreajuste, especialmente en conjuntos de datos pequeños.       
 
     Separador 
     #t_4_3.titulo-segundo.color-acento-contenido

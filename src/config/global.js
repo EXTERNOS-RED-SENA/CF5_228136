@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Preparación y modelado de datos para algoritmos de <i>Machine learning</i>',
+      'Preparación y modelado de datos para algoritmos de <i>machine learning</i>',
     descripcionCurso:
-      'Este componente aborda las técnicas y metodologías para la preparación y modelado de datos en contextos de <i>Machine learning</i>. Explora desde la construcción inicial de <i>datasets</i> hasta la preparación final para el entrenamiento de modelos, incluyendo el tratamiento de sesgos y estrategias de segmentación. Proporciona herramientas fundamentales para garantizar la calidad y efectividad de los datos en proyectos de IA.',
+      'Este componente aborda las técnicas y metodologías para la preparación y modelado de datos en contextos de <i>machine learning</i>. Explora desde la construcción inicial de <i>datasets</i> hasta la preparación final para el entrenamiento de modelos, incluyendo el tratamiento de sesgos y estrategias de segmentación. Proporciona herramientas fundamentales para garantizar la calidad y efectividad de los datos en proyectos de IA.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [],
@@ -214,7 +214,7 @@ export default {
   ],
   glosario: [
     {
-      termino: '<i>Bias (Sesgo)</i>',
+      termino: '<i>Bias</i> (Sesgo)',
       significado:
         'Desviación sistemática en los datos que puede llevar a resultados injustos o poco representativos en los modelos de <i>machine learning.</i>',
     },
@@ -259,7 +259,7 @@ export default {
         'Datos faltantes en un conjunto de datos que requieren tratamiento especial antes del modelado.',
     },
     {
-      termino: '<i>Normalización</i>',
+      termino: 'Normalización',
       significado:
         'Técnica para ajustar valores numéricos a una escala común, típicamente entre 0 y 1.',
     },
@@ -304,7 +304,7 @@ export default {
         'Conjunto de datos utilizado para ajustar hiperparámetros y evaluar el modelo durante el desarrollo.',
     },
     {
-      termino: '<i>Variable encoding</i>',
+      termino: 'Variable <i>encoding</i>',
       significado:
         'Proceso de convertir variables categóricas en formato numérico para su uso en modelos.',
     },
@@ -367,7 +367,7 @@ export default {
       referencia:
         'Restrepo, D., & Restrepo, M. (2004). Sesgos en diseños analíticos. Revista Colombiana de Psiquiatría, 33(3), 290-297. Recuperado de ',
       link:
-        'https://scielo.org.co/scielo.php?pid=S0034-74502004000300007&script=sci_arttext',
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0034-74502004000300007',
     },
   ],
 }

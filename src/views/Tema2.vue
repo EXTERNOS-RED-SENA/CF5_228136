@@ -142,29 +142,29 @@
 
             tbody
               tr
-                td Sesgo de Selección
-                td Recolección Adicional de Datos
-                td Recolectar más datos para representar a todos los grupos
+                td Sesgo de selección.
+                td Recolección adicional de datos.
+                td Recolectar más datos para representar a todos los grupos.
               tr
-                td Sesgo de Medición 
-                td Normalización de Características
-                td Ajustar las mediciones para reducir errores
+                td Sesgo de medición.
+                td Normalización de características.
+                td Ajustar las mediciones para reducir errores.
               tr
-                td Sesgo de Confirmación
-                td Reponderación
-                td Ajustar los pesos de las observaciones
+                td Sesgo de confirmación.
+                td Reponderación.
+                td Ajustar los pesos de las observaciones.
               tr
-                td Sesgo Implícito
-                td Sobremuestreo y Submuestreo
-                td Balancear las clases para minimizar desigualdades
+                td Sesgo implícito.
+                td Sobremuestreo y submuestreo.
+                td Balancear las clases para minimizar desigualdades.
               tr
-                td Sesgo Histórico
-                td Algoritmos Robustecidos frente a Sesgos
-                td Modificar los algoritmos para reducir el impacto de los sesgos históricos
+                td Sesgo histórico.
+                td Algoritmos robustecidos frente a sesgos.
+                td Modificar los algoritmos para reducir el impacto de los sesgos históricos.
               tr
-                td Sesgo de Exclusión
-                td Recopilación de Variables Relevantes
-                td Incluir variables que permitan explicar mejor los datos                                               
+                td Sesgo de exclusión.
+                td Recopilación de variables relevantes.
+                td Incluir variables que permitan explicar mejor los datos.                                               
 
     .row.justify-content-center.mb-5
       .col-lg-7.my-lg-0.my-3

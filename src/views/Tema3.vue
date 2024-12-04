@@ -10,7 +10,7 @@
     .row.justify-content-center.bg9.mb-5
       .col-lg-7.p-0.my-lg-0.my-3.j1
         .p-4
-          p.mb-0 La segmentación de datos es un paso clave en el proceso de preparación de #[i Datasets] para el aprendizaje automático. Dividir los datos en diferentes subconjuntos permite evaluar el rendimiento del modelo de manera efectiva y garantizar su capacidad para generalizar a datos no vistos. En este capítulo, se abordarán los conceptos de conjuntos de entrenamiento, prueba y validación, la importancia de la validación cruzada, y las estrategias de muestreo que aseguran una adecuada distribución de los datos..
+          p.mb-0 La segmentación de datos es un paso clave en el proceso de preparación de #[i Datasets] para el aprendizaje automático. Dividir los datos en diferentes subconjuntos permite evaluar el rendimiento del modelo de manera efectiva y garantizar su capacidad para generalizar a datos no vistos. En este capítulo, se abordarán los conceptos de conjuntos de entrenamiento, prueba y validación, la importancia de la validación cruzada, y las estrategias de muestreo que aseguran una adecuada distribución de los datos.
       .col-lg-5.p-0.my-lg-0.my-3.j1
         img.img-mov(src='@/assets/curso/temas/30.png') 
 
@@ -72,30 +72,30 @@
 
                 tbody
                   tr
-                    td Clásica
-                    td 80/20
-                    td #[i Datasets] grandes (>10,000 muestras)
-                    td Balance entre representatividad y evaluación
+                    td Clásica.
+                    td 80/20.
+                    td #[i Datasets] grandes (>10,000 muestras).
+                    td Balance entre representatividad y evaluación.
                   tr
-                    td Conservadora
-                    td 90/10
-                    td #[i Datasets] muy grandes (>100,000 muestras)
-                    td Maximiza datos de entrenamiento
+                    td Conservadora.
+                    td 90/10.
+                    td #[i Datasets] muy grandes (>100,000 muestras).
+                    td Maximiza datos de entrenamiento.
                   tr
-                    td Equilibrada
-                    td 70/30
-                    td #[i Datasets] medianos (1,000-10,000 muestras)
-                    td Mayor confianza en la evaluación
+                    td Equilibrada.
+                    td 70/30.
+                    td #[i Datasets] medianos (1,000-10,000 muestras).
+                    td Mayor confianza en la evaluación.
                   tr
-                    td Proporcional
-                    td 60/40
-                    td #[i Datasets] pequeños (<1,000 muestras)
-                    td Evita sobreajuste en muestras limitadas
+                    td Proporcional.
+                    td 60/40.
+                    td #[i Datasets] pequeños (<1,000 muestras).
+                    td Evita sobreajuste en muestras limitadas.
                   tr
-                    td Específica del dominio
-                    td Variable
-                    td Casos con restricciones temporales o secuenciales
-                    td Respeta la estructura temporal de los datos 
+                    td Específica del dominio.
+                    td Variable.
+                    td Casos con restricciones temporales o secuenciales.
+                    td Respeta la estructura temporal de los datos. 
 
 
     .row.justify-content-center
@@ -112,7 +112,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/37.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La validación cruzada es una técnica que se utiliza para evaluar el rendimiento de un modelo de aprendizaje automático de manera más robusta. Consiste en dividir el #[i Dataset] en múltiples subconjuntos o "folds" y entrenar el modelo varias veces, cada vez utilizando uno de los subconjuntos como conjunto de prueba y los demás como conjunto de entrenamiento.
+        p.mb-0 La validación cruzada es una técnica que se utiliza para evaluar el rendimiento de un modelo de aprendizaje automático de manera más robusta. Consiste en dividir el #[i Dataset] en múltiples subconjuntos o "#[em folds]" y entrenar el modelo varias veces, cada vez utilizando uno de los subconjuntos como conjunto de prueba y los demás como conjunto de entrenamiento.
 
     .row.justify-content-center.text-center.mb-5
       .col-lg-5.my-lg-0.my-3
@@ -121,7 +121,7 @@
           .row.justify-content-center.mb-3
             .col-auto.bg11.px-3.py-1                        
               h5.mb-0.text-center.fst-italic K-Fold Cross-Validation
-          p.mb-0 Esta es una de las formas más comunes de validación cruzada. El #[i Dataset] se divide en "k" partes (folds) y se entrena el modelo "k" veces, cada vez utilizando un fold diferente como conjunto de prueba y los restantes como conjunto de entrenamiento. El rendimiento se promedia sobre todas las iteraciones, proporcionando una medida más precisa de la capacidad del modelo para generalizar.
+          p.mb-0 Esta es una de las formas más comunes de validación cruzada. El #[i Dataset] se divide en "k" partes (#[em folds]) y se entrena el modelo "k" veces, cada vez utilizando un fold diferente como conjunto de prueba y los restantes como conjunto de entrenamiento. El rendimiento se promedia sobre todas las iteraciones, proporcionando una medida más precisa de la capacidad del modelo para generalizar.
       .col-lg-5.my-lg-0.my-3
         .bg5.brad1.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/temas/39.png' alt='')
@@ -146,11 +146,11 @@
         img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')                
       .col-lg-8.my-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg8")
-          div(titulo="Muestreo Aleatorio Simple ")
+          div(titulo="Muestreo aleatorio simple ")
             p Cada observación tiene la misma probabilidad de ser seleccionada. Esta es la técnica más básica y es adecuada cuando el #[i Dataset] es lo suficientemente grande y no existen problemas de desequilibrio entre clases.
-          div(titulo="Muestreo Estratificado ")
+          div(titulo="Muestreo estratificado ")
             p Se asegura de que la distribución de clases o categorías en los subconjuntos sea similar a la del #[i Dataset] original. Esto es especialmente importante cuando se trabaja con #[i Datasets] desbalanceados, ya que garantiza que todas las clases estén representadas adecuadamente en cada subconjunto.
-          div(titulo="Muestreo con Reemplazo ")
+          div(titulo="Muestreo con reemplazo ")
             p En este tipo de muestreo, una observación seleccionada se devuelve al #[i Dataset] y puede ser seleccionada nuevamente. Aunque no es muy común en la segmentación de #[i Datasets] para #[i machine learning], puede ser útil en ciertos enfoques como el #[i bootstrap].                        
 
     p A continuación, se presenta una tabla que resume las principales estrategias de muestreo y sus características:
@@ -173,20 +173,20 @@
 
             tbody
               tr
-                td Muestreo aleatorio simple
-                td Cada observación tiene la misma probabilidad de ser seleccionada
-                td Fácil de implementar y comprender
-                td No garantiza representatividad en #[i Datasets] desbalanceados
+                td Muestreo aleatorio simple.
+                td Cada observación tiene la misma probabilidad de ser seleccionada.
+                td Fácil de implementar y comprender.
+                td No garantiza representatividad en #[i Datasets] desbalanceados.
               tr
-                td Muestreo estratificado 
-                td Asegura que la distribución de clases sea similar en cada subconjunto
-                td Útil para #[i Datasets] desbalanceados
-                td Puede ser complejo de implementar
+                td Muestreo estratificado.
+                td Asegura que la distribución de clases sea similar en cada subconjunto.
+                td Útil para #[i datasets] desbalanceados.
+                td Puede ser complejo de implementar.
               tr
-                td Muestreo con reemplazo
-                td Las observaciones seleccionadas se devuelven al #[i Dataset]
-                td Útil para enfoques de #[i bootstrap]
-                td Puede introducir duplicados innecesarios
+                td Muestreo con reemplazo.
+                td Las observaciones seleccionadas se devuelven al #[i dataset].
+                td Útil para enfoques de #[i bootstrap].
+                td Puede introducir duplicados innecesarios.
 
     .row.justify-content-center
       .col-lg-7.my-lg-0.my-3
